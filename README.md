@@ -1,4 +1,4 @@
-# [SQUID Score](https://nk1877.github.io/StreetCondition/#)
+# [SQUID Score](https://argo-squid.github.io/SQUID-Score/)
 *A decision making tool for NYC street maintenance
 Combines 311 "Street complaint data" + ACS Car Ownership Data + ACS Median Income Data + a Hypothesized score from <a href="https://youtu.be/QzMCTIdxpoc" target="_blank">Street Quality Identification Device aka SQUID</a> to generate a* **response metric** *for NYC Street maintenance personnel to allocate resources in a manner that is more reflective of local conditions and leverages low-cost data collection methods*
 
@@ -29,4 +29,4 @@ https://drive.google.com/a/nyu.edu/file/d/0B3YXRPeRJxQFanFtTlA4QlhVaEU/view?usp=
 This notebook groupsby all street condition data to census tract level and adds ACS 2014 per cpita income and total car number data to create a csv file to be used as an input to the visualization tool.
 
 Location to code for vizualization tool.
-https://github.com/nk1877/StreetCondition/tree/gh-pages 
+https://github.com/ARGO-SQUID/SQUID-Score/tree/gh-pages 
