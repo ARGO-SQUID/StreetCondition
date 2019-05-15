@@ -24,7 +24,7 @@ A location-normalized 311 dataset dated 18-Oct-2016 is available here:
 https://drive.google.com/a/nyu.edu/file/d/0B3YXRPeRJxQFanFtTlA4QlhVaEU/view?usp=sharing
 
 
-### 4 - AggregateToCensus.ipynb
+## 4 - AggregateToCensus.ipynb
 
 This notebook groupsby all street condition data to census tract level and adds ACS 2014 per cpita income and total car number data to create a csv file to be used as an input to the visualization tool.
 
