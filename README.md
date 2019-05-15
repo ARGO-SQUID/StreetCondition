@@ -5,10 +5,10 @@ Combines 311 "Street complaint data" + ACS Car Ownership Data + ACS Median Incom
 
 Steps to reproduce creation of dataset that powers the visualzation.
 
-##1- FindingLocation.ipynb
+## 1- FindingLocation.ipynb
 This script extracts 311 "Street Complaint data" from individual SOCRATA views from 2005 - 2015
 
-##2 - GettingCoordinates.ipynb
+## 2 - GettingCoordinates.ipynb
 This where the location cleaning is performed. 
 An extract of the the 311 data from 1) is created where lat and long are not provided. 
 
@@ -16,7 +16,7 @@ For rows where a lat/long co-ordinate is not present, all avaiable address compo
 
 This routine requires a Google Maps API key
 
-##3-All Street Data.ipynb
+## 3-All Street Data.ipynb
 
 The data which is now "normalized" for location is combined with data from 1) which already have lat/long co-oridnates to generate a FINAL dataset. This data powers the visualization
 
@@ -24,7 +24,7 @@ A location-normalized 311 dataset dated 18-Oct-2016 is available here:
 https://drive.google.com/a/nyu.edu/file/d/0B3YXRPeRJxQFanFtTlA4QlhVaEU/view?usp=sharing
 
 
-###4 - AggregateToCensus.ipynb
+### 4 - AggregateToCensus.ipynb
 
 This notebook groupsby all street condition data to census tract level and adds ACS 2014 per cpita income and total car number data to create a csv file to be used as an input to the visualization tool.
 
